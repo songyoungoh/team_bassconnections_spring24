@@ -1,6 +1,7 @@
 import os
 import json
 
+
 def generate_json(dataset_dir, split):
     data = []
 
@@ -13,16 +14,19 @@ def generate_json(dataset_dir, split):
 
     return data
 
+
 def main():
-    dataset_dir = 'aid'
-    splits = ['train', 'val', 'test']
+    # Choose a dataset you want
+    dataset_dir = "AID"
+    splits = ["train", "val", "test"]
     dataset = {}
 
     for split in splits:
         dataset[split] = generate_json(dataset_dir, split)
 
-    with open('split_aid.json', 'w') as json_file:
+    with open("split_aid.json", "w") as json_file:
         json.dump(dataset, json_file, indent=4)
+
 
 if __name__ == "__main__":
     main()
