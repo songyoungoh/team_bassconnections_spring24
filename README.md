@@ -15,4 +15,4 @@ Since running a visual-large language model requires lots of GPU memory, we reco
 
 CLIP few-shot learning:
 We applied Cafo and Tip-adapter.
-- Cafo: We mainly use the code from https://github.com/DaryLu0v0/CaFo_Bass. Please check https://github.com/DaryLu0v0/CaFo_Bass.
+- Cafo: We mainly use the code from https://github.com/OpenGVLab/CaFo. Please check https://github.com/DaryLu0v0/CaFo_Bass.
