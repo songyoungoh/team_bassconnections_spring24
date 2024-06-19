@@ -11,6 +11,7 @@ Our experiments contain two parts: CLIP zero-shot and few-shot learning; Visual-
 Visual-large language model:
 Since running a visual-large language model requires lots of GPU memory, we recommend running our code in the Google Colab with high-performance GPU runtime.
 - Llava: Run the src/Llava.ipynb
+- LHRS-Bot: Run the src/LHRS_BOT.ipynb
 
 
 CLIP few-shot learning:
